@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func main() {
+func day2() {
 	rawFile, err := os.ReadFile("test.txt")
 	if err != nil {
 		fmt.Println("Error opening file:")
